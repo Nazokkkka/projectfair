@@ -1,0 +1,290 @@
+
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: 0;
+}
+
+.page1{
+    position: relative;
+    min-height: 120vh;
+    text-align: center;
+    background: url(images/photo_2024-09-27\ 16.26.06.jpeg);
+    height: 100%;
+    width: 100%;
+}
+ 
+
+body{
+    min-height: 100vh;
+    display: grid;
+    place-content: center;
+}
+
+
+
+
+.text{
+    color:#e58a12;
+    text-shadow: 10px 5px 5px 10px;
+    font-size: 50px;
+    position: relative;
+    right: 510px;
+    bottom: 180px;
+}
+
+.kara{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    width: 400px;
+    height: 350px;
+    background-color: black;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    margin-bottom: 160px;
+    color: #e58a12;
+    border-radius: 20px;
+    box-shadow: black 0px 10px 10px 10px;
+}
+
+.go{
+    margin-left: 10px;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+.birge{
+    display: flex;
+    flex-direction: row;
+}
+
+.logo img{
+    border-radius: 20px;
+}
+
+.jazu{
+    cursor: pointer;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+.go a{
+    color: #e58a12;
+}
+
+.search{
+    background-color: #e58a12;
+    width: 130px;
+    height: 20px;
+    border-radius: 10px;
+    border-style: none;
+
+}
+.jazu ::placeholder{
+    color:white;
+}
+
+
+.page2{
+    text-align: center;
+    background: url(https://images.mubicdn.net/images/film/26832/cache-18264-1649665869/image-w1280.jpg?size=800x);
+    background-size: cover;
+    height: 900px;
+    width: 1500px;
+}
+
+
+.starting{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 100px;
+    gap: 60px;
+    font-size: 30px;
+    position: absolute;
+    padding: 15px;
+    margin-left: 50px;
+    color: white;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1;
+}
+
+.soz{
+    font-size: 50px;
+    color: white;
+    margin-right: 900px;
+    margin-top: 200px;
+}
+
+.all{
+    padding: 30px;
+    margin-top: 470px;
+}
+
+.word{
+    color: rgb(69, 67, 67);
+    margin-right: 900px;
+    padding: 20px;
+    background-color: rgb(214, 217, 212);
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.themost .the{
+    margin-left: 50px;
+    padding: 30px;
+    color: white;
+}
+
+.more{
+    background-color: white;
+    width: 200px;
+    height: 50px;
+}
+
+
+.serials{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    margin-left: 60px;
+    row-gap: 50px;
+    padding-bottom: 70px;
+}
+
+.themost{
+    background-color: #263022df;
+}
+
+.serials img{
+    box-shadow: 1px 1px 15px 1px black;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+    transition: 1.2s;
+}
+
+a:hover{
+    background-color: rgb(77, 76, 76);
+    transform: scale(1.04);
+}
+
+.starting img{
+    margin-top: 3px;
+}
+
+.titanic:hover{
+    background-image: url('images/Снимок экрана 2024-09-29 в 18.55.35.jpg');
+}
+
+.page3{
+    background-color: #9CA85D;
+    width: 1300px;
+    height: 1600px;
+}
+
+.orta{
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+    margin-left: 100px;
+}
+
+.kazakh{
+    margin-top: 100px;
+    padding: 20px;
+}
+
+.turkish{
+    margin-top: 100px;
+    padding: 20px;
+}
+
+.first{
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+}
+
+.both{
+    color: white;
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+}
+
+.info{
+    margin-top: 40px;
+    font-size: 30px;
+}
+
+.both img{
+    box-shadow: 1px 1px 15px 1px black;
+}
+
+input{
+    width: 300px;
+    height: 30px;
+}
+
+.container-contact {
+    background: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTGBOgsv76yufUwTNb6YiyEtr3Nxb0aGM2nFA&s) no-repeat center center fixed;
+    background-size: cover;
+    width: 100vw;
+    height: 100vh;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 20px;
+}
+
+@media (max-width: 768px) {
+    .text {
+        font-size: 30px; /* Reduce font size for smaller screens */
+        right: 0; /* Center text */
+        bottom: 100px; /* Adjust positioning */
+    }
+
+    .kara {
+        width: 90%; /* Make the card width responsive */
+        height: auto; /* Let height adjust */
+        margin: 20px auto; /* Center card */
+    }
+
+    .starting {
+        flex-direction: column; /* Stack items vertically */
+        margin-left: 0; /* Remove left margin */
+        gap: 10px; /* Adjust spacing */
+    }
+
+    .serials {
+        grid-template-columns: repeat(2, 1fr); /* 2 columns on mobile */
+        margin-left: 0; /* Remove left margin */
+    }
+}
+
+@media (max-width: 480px) {
+    .text {
+        font-size: 24px; /* Further reduce font size */
+    }
+
+    .starting {
+        font-size: 20px; /* Adjust font size */
+    }
+
+    input {
+        width: 100%; /* Full width input */
+    }
+
+    .more {
+        width: 100%; /* Full width button */
+    }
+}
